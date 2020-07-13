@@ -1,0 +1,531 @@
+body {
+    margin: 0px;
+    font-size: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.top-nav,
+.big-area {
+    background: linear-gradient(to left, #080a2e, #232764);
+    color: white;
+}
+
+
+
+.brand {
+    color: white !important;
+    font-size: 200%;
+    font-weight: bold;
+    position: relative;
+    left: 18%;
+}
+
+.navbar-collapse {
+    position: relative;
+    left: 70%;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-item:hover {
+    border-bottom: 3px solid #1db91d;
+}
+
+.big-area {
+    display: flex;
+    justify-content: center;
+}
+
+.app-detail-con {
+    width: 100%;
+    background-image: url("/images/undraw_video_game_night_8h8m\ \(2\).svg") !important;
+    background-position: right;
+    background-size: 30% 90%;
+    background-repeat: no-repeat;
+}
+
+.app-name {
+    color: white;
+    font-size: 350%;
+}
+
+.app-description {
+    color: #add8e6 !important;
+    font-size: 120%;
+    width: 40%;
+}
+
+.second-con {
+    background-color: #e9ecef;
+}
+
+.body-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.left-list {
+    width: 20%;
+}
+
+.left-list li {
+    background: transparent;
+    border: hidden;
+    margin-bottom: 8px;
+}
+
+.right-list {
+    /* width: 78%; */
+    margin-left: 0.5%;
+}
+
+.blue-con {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.introducing {
+    color: #232764;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.introducing-text {
+    font-size: 100%;
+}
+
+.large-tile-con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.large-tile {
+    background-color: white;
+    width: 15.5%;
+    /* height: 50vh; */
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    border: 1px solid lightgray;
+    border-radius: 0px;
+}
+
+.large-tile-img-con {
+    height: 300px;
+    width: 100%;
+}
+
+.tile-img-1,
+.tile-img-2,
+.tile-img-3,
+.tile-img-4,
+.tile-img-5 {
+    background-image: url("/images/codmw2.jpg") !important;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.tile-img-2 {
+    background-image: url("/images/madden3.png") !important;
+}
+
+.tile-img-3 {
+    background-image: url("/images/nba2k2.jpg") !important;
+}
+
+.tile-img-4 {
+    background-image: url("/images/fortnite3.jpg") !important;
+}
+
+.tile-img-5 {
+    background-image: url("/images/fifa3.png") !important;
+}
+
+.game-title {
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.game-detail-con {
+    width: 100%;
+}
+
+.lounge-btn {
+    width: 90%;
+}
+
+.how-to-con {
+    display: flex;
+    justify-content: center;
+}
+
+.how-to-cons {
+    width: 20%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-con img {
+    width: 20vh;
+}
+
+.recent-match-con {
+    background-color: #080a2e;
+    height: auto;
+    background-image: url("/images/news-background.png") !important;
+    background-position: right;
+    background-size: 30% 100%;
+    background-repeat: no-repeat;
+}
+
+.recent-super {
+    border: 1px solid white;
+    width: 20%;
+}
+
+.what-con {
+    background: #030414;
+}
+
+.f1,
+.f2 {
+    width: 100%;
+}
+
+.recent-left-list,
+.recent-right-list,
+.f1 .list-group {
+    padding: 0px;
+}
+
+.recent-left-list li,
+.recent-right-list li,
+.f1 .list-group-item {
+    padding: 0;
+    background: none !important;
+    border: hidden;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+.recent-right {
+    border-left: 1px solid white;
+}
+
+.recent-left .list-group-item,
+.recent-right .list-group-item {
+    color: white;
+}
+
+.disclaimer-con {
+    width: 60% !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .brand {
+        left: 5%;
+    }
+
+    .navbar-collapse {
+        position: relative;
+        left: 0%;
+    }
+
+    .navbar-nav {
+        position: relative;
+        left: 75%;
+    }
+
+    .large-tile-con {
+        overflow-x: auto;
+    }
+
+
+    .large-tile {
+        width: 26.4vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .brand {
+        font-size: 170%;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        padding: 2px;
+    }
+
+    #navbarSupportedContent {
+        background: inherit;
+        position: fixed;
+        width: 100px;
+        top: 50px;
+        left: 84.8%;
+        border-radius: 4%;
+    }
+
+    .big-area {
+        padding: 0px !important;
+    }
+
+    .brand {
+        left: 5%;
+    }
+
+    .navbar-nav {
+        position: relative;
+        left: 0%;
+    }
+
+    .large-tile-con {
+        overflow-x: auto;
+    }
+
+
+    .large-tile {
+        width: 30vh;
+    }
+
+    .how-to-cons {
+        width: 30vh;
+    }
+
+    .recent-left {
+        width: 30vh !important;
+    }
+
+    .recent-right {
+        width: 30vh !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .brand {
+        left: 1%;
+    }
+
+
+    .app-detail-con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app-name {
+        color: white;
+        font-size: 280%;
+    }
+
+    .app-description {
+        color: #add8e6 !important;
+        font-size: 100%;
+        width: 95%;
+    }
+
+    .large-tile {
+        width: 35vh;
+    }
+
+    .how-to-con {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .how-to-cons {
+        width: 80%;
+        margin-bottom: 10px !important;
+    }
+
+
+    .recent-super {
+        align-items: center !important;
+        width: 100% !important;
+    }
+
+    .recent-match-con {
+        background-size: 70% 70%;
+    }
+
+    .recent-left {
+        width: 30vh !important;
+    }
+
+    .recent-right {
+        width: 30vh !important;
+    }
+
+    .what-con p {
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .f2 {
+        flex-direction: column;
+    }
+
+    .f1-inner {
+        width: 100%;
+        align-items: center !important;
+    }
+
+    .disclaimer-con {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .brand {
+        left: 0%;
+    }
+
+    .app-name {
+        color: white;
+        font-size: 250%;
+    }
+
+    .app-description {
+        font-size: 90%;
+        width: 100%;
+    }
+
+    .introducing {
+        font-size: 110%;
+    }
+
+    .large-tile {
+        width: 36vh;
+    }
+
+    .how-to-con {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .how-to-cons {
+        width: 80%;
+        margin-bottom: 10px !important;
+    }
+
+
+    .recent-super {
+        align-items: center !important;
+        width: 100% !important;
+    }
+
+    .recent-match-con {
+        background-size: 70% 70%;
+    }
+
+    .recent-left {
+        width: 30vh !important;
+    }
+
+    .recent-right {
+        width: 30vh !important;
+    }
+
+    .what-con p {
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .f2 {
+        flex-direction: column;
+    }
+
+    .f1-inner {
+        width: 100%;
+        align-items: center !important;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+    .brand {
+        left: 0%;
+    }
+
+    .app-name {
+        color: white;
+        font-size: 220%;
+    }
+
+    .app-description {
+        font-size: 90%;
+        width: 100%;
+        word-wrap: break-word;
+    }
+
+    .introducing {
+        font-size: 110%;
+    }
+
+    .large-tile {
+        width: 36vh;
+    }
+
+    .how-to-con {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .how-to-cons {
+        width: 80%;
+        margin-bottom: 10px !important;
+    }
+
+
+    .recent-super {
+        align-items: center !important;
+        width: 100% !important;
+    }
+
+    .recent-match-con {
+        background-size: 70% 70%;
+    }
+
+    .recent-left {
+        width: 30vh !important;
+    }
+
+    .recent-right {
+        width: 30vh !important;
+    }
+
+    .what-con p {
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .f2 {
+        flex-direction: column;
+    }
+
+    .f1-inner {
+        width: 100%;
+        align-items: center !important;
+    }
+
+    .f1-inner a {
+        font-size: 80%;
+    }
+
+}

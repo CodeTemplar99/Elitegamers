@@ -1,0 +1,154 @@
+body {
+    background-color: #ebebeb;
+    width: 100%;
+    overflow-x: hidden;
+    padding-bottom: 10px;
+}
+
+.nav {
+    background: #080a2e;
+}
+
+.user-cover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-right: 1%;
+}
+
+.brand {
+    font-size: 200%;
+    margin: 0px;
+    left: 0;
+}
+
+.user-cover .fa-user-circle,
+.user-cover .fa-bell,
+.user-cover .fa-plus-circle {
+    font-size: 150%;
+}
+
+.user-cover span {
+    font-size: 120%;
+}
+
+/* .nav-link{
+    color: white !important;
+} */
+
+.low-nav {
+    /* background: #1b1b46; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.form-control {
+    height: 45px;
+    display: none !important;
+}
+
+.cart-con {
+    background: #e7d10a;
+}
+
+.nav .btn {
+    background: #e7d10a;
+}
+
+.nav .fa-shopping-bag {
+    font-size: 150%;
+}
+
+
+.accent {
+    background: #080a2e;
+}
+
+
+.quick-tell-cons {
+    width: 48%;
+}
+
+.quick-tell-cons .fa {
+    font-size: 130%;
+    color: #080a2e;
+}
+
+.instant-match-con,
+.tournament-box {
+    width: 50%;
+}
+
+.instant-match-con li {
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.instant-list-head,
+.tournament-list-head {
+    background: #080a2e;
+    color: white;
+    border-radius: 0px !important;
+}
+
+.instant-match-badge {
+    width: 15%;
+    border: 1px solid #080a2e;
+    border-radius: 0px;
+}
+
+.instant-match-con .fa-gamepad {
+    font-size: 200%;
+}
+
+.tournament-box {
+    width: 50%;
+}
+
+
+
+.add-cart,
+.fav-it {
+    cursor: pointer;
+}
+
+.add-cart:hover {
+    background-color: #e7d10a;
+}
+
+.fav-it:hover {
+    color: red !important;
+}
+
+.product-con {
+    width: 28%;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.product-img-con {
+    height: 180px;
+    width: 100%;
+}
+
+.product-con:hover {
+    border: 1px solid red !important;
+}
+
+.product-img-con img {
+    height: 100%;
+    width: 100%;
+}
+
+.large-ad {
+    background: #080a2e !important;
+
+}
+
+.chat-body{
+    height: 55vh;
+}
