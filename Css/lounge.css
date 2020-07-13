@@ -44,10 +44,10 @@ body {
 }
 
 
-.form-control {
+/* .form-control {
     height: 45px;
     display: none !important;
-}
+} */
 
 .cart-con {
     background: #e7d10a;
@@ -149,6 +149,11 @@ body {
 
 }
 
-.chat-body{
+.chat-body {
     height: 55vh;
+    overflow-y: auto;
+}
+
+.chat-body .fa-user-circle {
+    font-size: 150%;
 }
