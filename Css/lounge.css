@@ -3,6 +3,7 @@ body {
     width: 100%;
     overflow-x: hidden;
     padding-bottom: 10px;
+    font-size: 90%;
 }
 
 .nav {
@@ -18,7 +19,7 @@ body {
 }
 
 .brand {
-    font-size: 200%;
+    font-size: 150%;
     margin: 0px;
     left: 0;
 }
@@ -26,11 +27,11 @@ body {
 .user-cover .fa-user-circle,
 .user-cover .fa-bell,
 .user-cover .fa-plus-circle {
-    font-size: 150%;
+    font-size: 100%;
 }
 
 .user-cover span {
-    font-size: 120%;
+    font-size: 100%;
 }
 
 /* .nav-link{
@@ -49,32 +50,10 @@ body {
     display: none !important;
 } */
 
-.cart-con {
-    background: #e7d10a;
-}
-
-.nav .btn {
-    background: #e7d10a;
-}
-
-.nav .fa-shopping-bag {
-    font-size: 150%;
-}
-
-
 .accent {
     background: #080a2e;
 }
 
-
-.quick-tell-cons {
-    width: 48%;
-}
-
-.quick-tell-cons .fa {
-    font-size: 130%;
-    color: #080a2e;
-}
 
 .instant-match-con,
 .tournament-box {
@@ -102,7 +81,7 @@ body {
 }
 
 .instant-match-con .fa-gamepad {
-    font-size: 200%;
+    font-size: 150%;
 }
 
 .tournament-box {
@@ -110,39 +89,6 @@ body {
 }
 
 
-
-.add-cart,
-.fav-it {
-    cursor: pointer;
-}
-
-.add-cart:hover {
-    background-color: #e7d10a;
-}
-
-.fav-it:hover {
-    color: red !important;
-}
-
-.product-con {
-    width: 28%;
-    border-radius: 0px;
-    cursor: pointer;
-}
-
-.product-img-con {
-    height: 180px;
-    width: 100%;
-}
-
-.product-con:hover {
-    border: 1px solid red !important;
-}
-
-.product-img-con img {
-    height: 100%;
-    width: 100%;
-}
 
 .large-ad {
     background: #080a2e !important;
@@ -155,5 +101,5 @@ body {
 }
 
 .chat-body .fa-user-circle {
-    font-size: 150%;
+    font-size: 100%;
 }
