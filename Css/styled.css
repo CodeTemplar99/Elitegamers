@@ -11,8 +11,6 @@ body {
     color: white;
 }
 
-
-
 .brand {
     color: white !important;
     font-size: 200%;
@@ -21,9 +19,9 @@ body {
     left: 18%;
 }
 
-.navbar-collapse {
-    position: relative;
-    left: 70%;
+.navbar-nav {
+    position: fixed;
+    right: 15%;
 }
 
 .nav-link {
@@ -177,7 +175,6 @@ body {
     justify-content: center;
 }
 
-
 .image-con img {
     width: 20vh;
 }
@@ -222,7 +219,6 @@ body {
 }
 
 
-
 .recent-right {
     border-left: 1px solid white;
 }
@@ -236,6 +232,17 @@ body {
     width: 60% !important;
 }
 
+/* ------------------------ */
+.dp-con{
+    height: 20vh;
+}
+
+.dp-con img {
+    height: inherit;
+    width: 100%;
+    width: 80%;
+}
+
 @media screen and (max-width: 1024px) {
     .brand {
         left: 5%;
@@ -247,8 +254,8 @@ body {
     }
 
     .navbar-nav {
-        position: relative;
-        left: 75%;
+        position: fixed;
+        right: 5%;
     }
 
     .large-tile-con {
@@ -272,13 +279,10 @@ body {
         padding: 2px;
     }
 
+
     #navbarSupportedContent {
         background: inherit;
-        position: fixed;
-        width: 100px;
-        top: 50px;
-        left: 84.8%;
-        border-radius: 4%;
+        position: relative;
     }
 
     .big-area {
@@ -290,8 +294,13 @@ body {
     }
 
     .navbar-nav {
-        position: relative;
-        left: 0%;
+        background: inherit;
+        position: fixed;
+        width: 100px;
+        top: 50px;
+        right: 2%;
+        border-radius: 4%;
+        border: 1px solid white;
     }
 
     .large-tile-con {
@@ -321,6 +330,9 @@ body {
         left: 1%;
     }
 
+    .navbar-nav {
+        right: 3.4%;
+    }
 
     .app-detail-con {
         display: flex;
@@ -395,6 +407,10 @@ body {
         left: 0%;
     }
 
+    .navbar-nav {
+        right: 4%;
+    }
+
     .app-name {
         color: white;
         font-size: 250%;
@@ -410,7 +426,7 @@ body {
     }
 
     .large-tile {
-        width: 36vh;
+        width: 80vh;
     }
 
     .how-to-con {
@@ -463,6 +479,10 @@ body {
         left: 0%;
     }
 
+    .navbar-nav {
+        right: 4%;
+    }
+
     .app-name {
         color: white;
         font-size: 220%;
@@ -479,7 +499,7 @@ body {
     }
 
     .large-tile {
-        width: 36vh;
+        width: 90vh;
     }
 
     .how-to-con {
