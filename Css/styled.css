@@ -233,15 +233,29 @@ body {
 }
 
 /* ------------------------ */
-.dp-con{
+.dp-con {
     height: 20vh;
 }
 
 .dp-con img {
     height: inherit;
     width: 100%;
-    width: 80%;
+    width: 60%;
 }
+
+.profile-body .navbar-nav {
+    position: relative;
+    right: 0%;
+}
+
+.profile-body .nav-link {
+    color: black !important;
+}
+
+.profile-body .nav-item:hover {
+    border-bottom: 3px solid #1db91d;
+}
+
 
 @media screen and (max-width: 1024px) {
     .brand {
