@@ -235,12 +235,20 @@ body {
 /* ------------------------ */
 .dp-con {
     height: 20vh;
+    /* border: 1px solid dimgray; */
 }
 
 .dp-con img {
     height: inherit;
-    width: 100%;
     width: 60%;
+}
+
+.cover-img-con {
+    height: 50vh;
+    background-image: url("/images/beautiful-wallpaper-1600x900.jpg") !important;
+    background-position: top;
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
 }
 
 .profile-body .navbar-nav {
