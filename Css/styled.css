@@ -264,6 +264,35 @@ body {
     border-bottom: 3px solid #1db91d;
 }
 
+/* - - - -- - - -- - -- - - -- - - -- - - --  */
+.create-game-con {
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.console-boxes {
+    width: 30%;
+    border-radius: 0px;
+}
+
+.choose-game-boxes {
+    width: 30%;
+    border-radius: 0px;
+}
+
+.wager-boxes {
+    width: 40%;
+    border-radius: 0px;
+}
+
+/* - - - - - -- - - - - - - -- - --  --  */
+.first {
+    font-size: 300%;
+}
+
+.second {
+    font-size: 200%;
+}
 
 @media screen and (max-width: 1024px) {
     .brand {

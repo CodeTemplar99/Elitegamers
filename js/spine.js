@@ -6,3 +6,14 @@ function showSideBar() {
     isOpen = !isOpen;
 
 }
+
+// $(".show-modal").click(function () {
+//     $('modal').modal('show')
+// });
+
+// $('.show-modal').click(function showModal() {
+//         $('#myModal').modal('show')
+
+//     }
+//     showModal();
+// )

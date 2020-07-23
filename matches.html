@@ -9,30 +9,25 @@
     <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="./icons/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
     <link href="./Css/styled.css" rel="stylesheet" type="text/css">
+    <link href="./Css/lounge.css" rel="stylesheet" type="text/css">
     <!-- <script defer src="./js/jquery-3.4.1.min.js"></script> -->
 </head>
 
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light  top-nav">
-        <a class="navbar-brand brand" href="#">Brand name</a>
-        <button class="navbar-toggler" onclick="showSideBar()" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+     <div class="jumbotron nav  sticky-top mb-0 low-nav p-1 rounded-0 ">
+         <div class="user-cover">
+             <a class="navbar-brand brand" href="./matches.html">Brand name</a>
 
-        <div class="collapse navbar-collapse shadow-sm" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">Login</a>
-                </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">Sign up</a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
+             <div>
+                 <a class="text-white" href="./profile.html"><i
+                         class="fa fa-user-circle mx-sm-1"></i><span>username</span> </a>
+                 <a class="text-white" href=".notifications.html"><i class="fa fa-bell mx-sm-3"></i></a>
+                 <a class="text-white" href=".gateway.html"><i class="fa fa-plus-circle mx-sm-2"></i><span>$00.00</span>
+                     <span class="small">[add
+                         funds]</span></a>
+             </div>
+         </div>
+     </div>
     <div class="container-fluid bg-white p-0">
         <!-- <div class="jumbotron sticky-top m-0 rounded-0 p-2 top-nav">
             <div class="container d-flex justify-content-between">
@@ -44,29 +39,17 @@
                 </div>
             </div>
         </div> -->
-        <div class="container-fluid p-5 big-area">
-            <div class="container bg-transparent">
-                <div class="jumbotron bg-transparent p-0 py-5 mb-0 app-detail-con">
-                    <p class="lead font-weight-bold m-0 mb-1 app-name">Play for the price</p>
-                    <p class="small text-muted m-0 mb-2 app-description">Win Cash playing video games against anyone
-                        in the
-                        world on PlayStation 4, Xbox One, and PC</p>
-                    <button class="btn btn-success p-2 font-weight-bold rounded-0">Start Playing</button>
-                </div>
-            </div>
-        </div>
-
         <div class="container-fluid second-con p-1">
             <!-- <div class="container"> -->
             <div class="jumbotron bg-transparent p-1">
-                <div class="jumbotron bg-transparent p-1 right-list">
-                    <div class="jumbotron bg-transparent mb-3 p-3 blue-con">
-                        <p class="lead m-0 introducing">Choose a game to get started</p>
+                <div class="jumbotron bg-transparent m-0 p-1 right-list">
+                    <div class="jumbotron bg-transparent mb-0 p-3 blue-con">
+                        <p class="lead m-0 introducing">Choose a game to play</p>
                     </div>
 
-                    <div class="jumbotron bg-transparent p-1 large-tile-con">
+                    <div class="jumbotron bg-white m-0 p-1 large-tile-con">
 
-                        <div class="jumbotron large-tile d-flex flex-column align-items-center shadow-sm p-0">
+                        <div class="jumbotron m-4 large-tile d-flex flex-column align-items-center shadow-sm p-0">
                             <div
                                 class="jumbotron large-tile-img-con tile-img-1 p-1 d-flex align-items-end rounded-0 m-0">
                                 <p class="game-title">Call of Duty</p>
@@ -75,10 +58,11 @@
                                 <p class="font-weight-bold mx-2 mt-2 mb-1">9000</p>
                                 <P class="m-0 mx-2 mb-1 text-muted">Matches played last month</P>
                             </div>
-                            <button class="btn btn-primary rounded-0 mb-3 lounge-btn">Join Lounge</button>
+                            <a href="./lounge.html" class="btn btn-primary rounded-0 mb-3 lounge-btn">Join
+                                Lounge</a>
 
                         </div>
-                        <div class="jumbotron large-tile d-flex flex-column align-items-center shadow-sm p-0">
+                        <div class="jumbotron m-4 large-tile d-flex flex-column align-items-center shadow-sm p-0">
                             <div
                                 class="jumbotron large-tile-img-con tile-img-2 p-1 d-flex align-items-end rounded-0 m-0">
                                 <p class="game-title">Madden</p>
@@ -87,9 +71,10 @@
                                 <p class="font-weight-bold mx-2 mt-2 mb-1">9000</p>
                                 <P class="m-0 mx-2 mb-1 text-muted">Matches played last month</P>
                             </div>
-                            <button class="btn btn-primary rounded-0 mb-3 lounge-btn">Join Lounge</button>
+                            <a href="./lounge.html" class="btn btn-primary rounded-0 mb-3 lounge-btn">Join
+                                Lounge</a>
                         </div>
-                        <div class="jumbotron large-tile d-flex flex-column align-items-center shadow-sm p-0">
+                        <div class="jumbotron m-4 large-tile d-flex flex-column align-items-center shadow-sm p-0">
                             <div
                                 class="jumbotron large-tile-img-con tile-img-3 p-1 d-flex align-items-end rounded-0 m-0">
                                 <p class="game-title">NBA 2K</p>
@@ -98,9 +83,10 @@
                                 <p class="font-weight-bold mx-2 mt-2 mb-1">9000</p>
                                 <P class="m-0 mx-2 mb-1 text-muted">Matches played last month</P>
                             </div>
-                            <button class="btn btn-primary rounded-0 mb-3 lounge-btn">Join Lounge</button>
+                            <a href="./lounge.html" class="btn btn-primary rounded-0 mb-3 lounge-btn">Join
+                                Lounge</a>
                         </div>
-                        <div class="jumbotron large-tile d-flex flex-column align-items-center shadow-sm p-0">
+                        <div class="jumbotron m-4 large-tile d-flex flex-column align-items-center shadow-sm p-0">
                             <div
                                 class="jumbotron large-tile-img-con tile-img-4 p-1 d-flex align-items-end rounded-0 m-0">
                                 <p class="game-title">Fortnite</p>
@@ -109,9 +95,10 @@
                                 <p class="font-weight-bold mx-2 mt-2 mb-1">9000</p>
                                 <P class="m-0 mx-2 mb-1 text-muted">Matches played last month</P>
                             </div>
-                            <button class="btn btn-primary rounded-0 mb-3 lounge-btn">Join Lounge</button>
+                            <a href="./lounge.html" class="btn btn-primary rounded-0 mb-3 lounge-btn">Join
+                                Lounge</a>
                         </div>
-                        <div class="jumbotron large-tile d-flex flex-column align-items-center shadow-sm p-0">
+                        <div class="jumbotron m-4 large-tile d-flex flex-column align-items-center shadow-sm p-0">
                             <div
                                 class="jumbotron large-tile-img-con tile-img-5 p-1 d-flex align-items-end rounded-0 m-0">
                                 <p class="game-title">FIFA</p>
@@ -120,7 +107,8 @@
                                 <p class="font-weight-bold mx-2 mt-2 mb-1">9000</p>
                                 <P class="m-0 mx-2 mb-1 text-muted">Matches played last month</P>
                             </div>
-                            <button class="btn btn-primary rounded-0 mb-3 lounge-btn">Join Lounge</button>
+                            <a href="./lounge.html" class="btn btn-primary rounded-0 mb-3 lounge-btn">Join
+                                Lounge</a>
                         </div>
                     </div>
                 </div>
@@ -128,54 +116,6 @@
             <!-- </div> -->
         </div>
 
-        <div class="jumbotron bg-white rounded-0 mx-0 p-3">
-            <div
-                class="jumbotron bg-transparent m-0 mb-4 p-0 d-flex flex-column align-items-center justify-content-center">
-                <p class="lead m-0 font-weight-bold">-How to play-</p>
-            </div>
-            <div class="how-to-con">
-                <div class="jumbotron bg-white mb-0 p-1 px-3 rounded-0 how-to-cons">
-                    <div class="image-con"><img src="./images/step-1.png" class="img-fluid image-responsive"></div>
-                    <p class="small mx-4 text-center">We'll match you with an opponent of similar skill</p>
-                </div>
-                <div class="jumbotron bg-white mb-0 p-1 px-3 rounded-0 how-to-cons">
-                    <div class="image-con"><img src="./images/step-2.png" class="img-fluid image-responsive"></div>
-                    <p class="small mx-4 text-center">You play each other online on PS4, Xbox One, or PC</p>
-                </div>
-                <div class="jumbotron bg-white mb-0 p-1 px-3 rounded-0 how-to-cons">
-                    <div class="image-con"><img src="./images/step-3.png" class="img-fluid image-responsive"></div>
-                    <p class="small mx-4 text-center">Win and receive cash instantly</p>
-                </div>
-            </div>
-        </div>
-        <div class="jumbotron rounded-0 recent-match-con  mx-0 mb-0">
-            <div
-                class="jumbotron bg-transparent m-0 p-3 rounded-0 d-flex flex-column justify-content-center align-items-center recent-super">
-                <p class="lead m-0 text-white font-weight-bold">Recent matches</p>
-                <div class="jumbotron col-12 p-1 bg-transparent d-flex justify-content-center">
-                    <div class="jumbotron bg-transparent py-2 rounded-0  m-0 recent-left">
-                        <ul class="list-group p-0 recent-left-list">
-                            <li class="list-group-item mb-3">Player1 name</li>
-                            <li class="list-group-item mb-3">Player2 name</li>
-                        </ul>
-                    </div>
-                    <div class="jumbotron bg-transparent py-2 rounded-0 m-0 recent-right">
-                        <ul class="list-group recent-right-list">
-
-                            <li class="list-group-item mb-3">
-                                <span>GAME NAME</span><br>
-                                <span class="text-muted">
-                                    Xbox or PS4 with a Controller</span></li>
-                            <li class="list-group-item mb-3">Prize:<span>$90</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="jumbotron rounded-0 m-0 what-con p-3 d-flex flex-column justify-content-center align-items-center">
-            <p class="lead text-white font-weight-bold">What are you waiting for? Get started today!</p>
-            <button class="btn btn-success">Start playing</button>
-        </div>
     </div>
     <div
         class="jumbotron bg-transparent rounded-0 mx-0 mb-0 p-0 d-flex flex-column justify-content-center align-items-center">
@@ -215,7 +155,8 @@
                     Elite gamers is not endorsed by, directly affiliated with, maintained or sponsored by Apple Inc,
                     Electronic Arts, Activision Blizzard, Take-Two Interactive, Microsoft, Xbox, Sony, Playstation or
                     Epic
-                    Games. All content, games titles, trade names and/or trade dress, trademarks, artwork and associated
+                    Games. All content, games titles, trade names and/or trade dress, trademarks, artwork and
+                    associated
                     imagery are trademarks and/or copyright material of their respective owners.</p>
             </div>
             <div class="jumbotron bg-transparent m-0 p-0">

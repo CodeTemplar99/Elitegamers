@@ -27,7 +27,11 @@ body {
 .user-cover .fa-user-circle,
 .user-cover .fa-bell,
 .user-cover .fa-plus-circle {
-    font-size: 100%;
+    font-size: 150%;
+}
+
+.user-cover .fa-bell, .user-cover .fa-user-circle{
+    font-weight: normal;
 }
 
 .user-cover span {
