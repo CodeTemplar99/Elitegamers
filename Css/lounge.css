@@ -30,7 +30,8 @@ body {
     font-size: 150%;
 }
 
-.user-cover .fa-bell, .user-cover .fa-user-circle{
+.user-cover .fa-bell,
+.user-cover .fa-user-circle {
     font-weight: normal;
 }
 
